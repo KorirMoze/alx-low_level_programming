@@ -1,10 +1,11 @@
+
 #include "main.h"
 
 /**
 *always-check the code
 *Return aways(0)
 */
-int main(void)
+void print_alphabet_x10(void)
 {
 	alpha_count = 0;
 	while (alpha_count <10;)
