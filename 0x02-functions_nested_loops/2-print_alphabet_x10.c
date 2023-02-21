@@ -1,22 +1,26 @@
-
 #include "main.h"
 
 /**
-*always-check the code
-*Return aways(0)
-*/
+ * print_alphabet_x10 - prints alphabets 10
+ *
+ * Description: prints 10 times
+ * Return: Always(0).
+ */
+
 void print_alphabet_x10(void)
 {
-	alpha_count = 0;
-	while (alpha_count <10;)
+	int alphabet_count = 0;
+
+	while (alphabet_count < 10)
 	{
-		char al = 'a';
-		while(al <='z')
+		char ch = 'a';
+
+		while (ch <= 'z')
 		{
-			_putchar(al);
-			al++;
+			_putchar(ch);
+			ch++;
 		}
-		alpha_count++;
-		_putchar('\n')
+		alphabet_count++;
+		_putchar('\n');
 	}
 }
