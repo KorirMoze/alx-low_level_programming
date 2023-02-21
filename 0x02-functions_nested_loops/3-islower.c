@@ -1,21 +1,14 @@
 #include "main.h"
 
 /**
- * main - check the code.
+ * _islower - prints 1 or 0 depending on input
+ * @c: first parameter
  *
- * Return: Always 0
-*/
+ * Description: prints all lowercase letters
+ * Return: Always(0).
+ */
+
 int _islower(int c)
 {
-	   int c = 'r';
-
-   (c >= 'a' && c <= 'z');
-   if( islower(c) ) {
-      printf("1" );
-   } else {
-      printf("0" );
-   }
-   
-
-   
-   return(0);
+	return (c >= 'a' && c <= 'z');
+}
